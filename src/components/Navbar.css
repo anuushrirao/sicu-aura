@@ -1,0 +1,51 @@
+.body {
+    margin: 0;
+}
+
+.nav {
+    background-color: rgba(33, 27, 49, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    height: 70px;
+}
+
+.nav a {
+    color: inherit;
+}
+
+.logo {
+    width: 70px;
+    margin-right: 10px; 
+    height: 70px;
+    border-radius: 10px;
+}
+
+.title {
+    height: 30px;
+    margin-left: 0px; 
+    border-radius: 5px;
+}
+
+.avatar {
+    height: 70px;
+    margin-left: 500px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-left: 4px;
+    color: white;
+}
+
+.logout-btn {
+    background-color: rgb(43, 36, 115);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 95px;
+    padding: 10px;
+    margin-left: 50px;
+}

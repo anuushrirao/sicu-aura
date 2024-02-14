@@ -1,0 +1,73 @@
+.home-wrapper {
+    background-color: rgba(243, 250, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title-name {
+    display: flex;
+    margin-left: 50px; /* Align the title to the leftmost side */
+    margin-right: 40px; /* Add margin to the right to create space */
+    color: rgb(70, 69, 69);
+  }
+  
+  .boy-wrapper {
+    margin-top: 60px;
+    margin-left: 900px; /* Moves the boy image to the right */
+  }
+  
+  .boy-image {
+    width: 100px; /* Adjust the size of the boy image as needed */
+  }
+  
+  .search-box {
+    padding: 10px;
+    background-color: white;
+    width: 500px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: auto; /* Align the search box to the rightmost side */
+    margin-right: 100px; 
+    margin-top: -55px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .user-table {
+    width: 90vw;
+    border-collapse: collapse;
+    margin: 50px;
+}
+
+.user-table th {
+    background-color: #0df5e3; /* Header row background color */
+    color: black;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+}
+
+.user-table td {
+    background-color: #f4f4f5; /* Data row background color */
+    color: #333;
+    padding: 10px;
+    text-align: left;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #fffefe; /* Alternate row color */
+}
+
+  
